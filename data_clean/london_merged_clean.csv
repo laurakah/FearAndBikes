@@ -1,0 +1,731 @@
+date,bike_rents,temp_actual(C),temp_feeling(C),humidity,wind_speed,weather_condition,holiday(y/n),weekend(y/n),season
+2015-01-04,9234,2.48,0.65,94.27,7.5,partly cloudy,False,True,winter
+2015-01-05,20372,8.04,6.71,80.31,8.85,partly cloudy,False,False,winter
+2015-01-06,20613,7.85,5.33,78.9,16.0,clear,False,False,winter
+2015-01-07,21064,7.46,4.5,78.11,19.76,few clouds,False,False,winter
+2015-01-08,15601,9.75,7.79,79.31,20.48,few clouds,False,False,winter
+2015-01-09,22104,12.73,12.33,74.85,32.92,partly cloudy,False,False,winter
+2015-01-10,14709,10.48,8.71,66.12,34.31,partly cloudy,False,True,winter
+2015-01-11,14575,6.65,2.46,67.58,26.56,clear,False,True,winter
+2015-01-12,17199,11.12,9.75,76.58,28.19,rain,False,False,winter
+2015-01-13,24697,8.6,6.08,75.81,21.21,rain,False,False,winter
+2015-01-14,23565,6.5,2.48,67.12,25.75,few clouds,False,False,winter
+2015-01-15,22968,8.83,5.62,66.46,31.17,few clouds,False,False,winter
+2015-01-16,22663,5.79,2.54,66.23,17.46,clear,False,False,winter
+2015-01-17,15268,3.79,0.56,75.1,13.58,clear,False,True,winter
+2015-01-18,13199,3.4,1.92,84.33,6.98,rain,False,True,winter
+2015-01-19,23034,2.42,0.79,80.0,6.19,partly cloudy,False,False,winter
+2015-01-20,23247,2.06,-0.17,81.96,9.17,clear,False,False,winter
+2015-01-21,22782,3.04,-0.38,84.27,14.73,cloudy,False,False,winter
+2015-01-22,23278,2.58,1.04,74.48,6.73,partly cloudy,False,False,winter
+2015-01-23,21892,2.71,-0.02,79.42,12.42,clear,False,False,winter
+2015-01-24,17539,5.71,2.33,72.73,18.06,clear,False,True,winter
+2015-01-25,15094,5.52,2.31,77.38,16.17,partly cloudy,False,True,winter
+2015-01-26,22710,8.56,5.73,75.21,18.96,partly cloudy,False,False,winter
+2015-01-27,25000,6.96,4.15,72.38,15.29,clear,False,False,winter
+2015-01-28,21536,6.98,2.92,71.02,29.15,clear,False,False,winter
+2015-01-29,21275,3.77,-1.25,73.52,26.56,few clouds,False,False,winter
+2015-01-30,21171,3.98,0.19,77.08,17.48,partly cloudy,False,False,winter
+2015-01-31,10250,3.42,-0.92,77.92,20.12,rain,False,True,winter
+2015-02-01,11305,3.79,-0.9,67.0,24.77,partly cloudy,False,True,winter
+2015-02-02,21640,1.25,-2.4,64.85,12.62,clear,False,False,winter
+2015-02-03,19869,2.17,-1.04,85.5,11.83,partly cloudy,False,False,winter
+2015-02-04,21850,2.88,-0.52,80.69,14.12,partly cloudy,False,False,winter
+2015-02-05,21200,2.9,-0.92,78.1,16.02,few clouds,False,False,winter
+2015-02-06,20955,2.69,-1.67,69.85,19.27,few clouds,False,False,winter
+2015-02-07,13149,3.75,1.02,83.02,11.31,partly cloudy,False,True,winter
+2015-02-08,15778,5.44,3.15,76.21,10.25,few clouds,False,True,winter
+2015-02-09,23858,5.71,3.85,81.44,9.21,few clouds,False,False,winter
+2015-02-10,23559,5.5,4.37,79.61,6.48,cloudy,False,False,winter
+2015-02-11,23680,5.04,3.17,77.44,7.65,cloudy,False,False,winter
+2015-02-12,23227,3.98,2.38,73.12,7.21,cloudy,False,False,winter
+2015-02-13,17699,6.98,4.02,84.54,17.81,rain,False,False,winter
+2015-02-14,14423,7.31,5.1,88.69,12.38,partly cloudy,False,True,winter
+2015-02-15,16952,6.69,5.33,86.17,7.33,partly cloudy,False,True,winter
+2015-02-16,16381,6.04,4.06,89.71,9.75,rain,False,False,winter
+2015-02-17,25064,5.85,3.48,68.71,12.19,clear,False,False,winter
+2015-02-18,25132,6.4,3.73,71.27,15.17,clear,False,False,winter
+2015-02-19,16898,7.27,3.9,81.5,21.12,rain,False,False,winter
+2015-02-20,20715,6.65,4.81,81.33,9.42,few clouds,False,False,winter
+2015-02-21,16198,4.81,1.62,76.33,16.21,few clouds,False,True,winter
+2015-02-22,9086,5.12,1.42,80.92,21.25,clear,False,True,winter
+2015-02-23,21764,6.94,2.94,66.85,25.88,few clouds,False,False,winter
+2015-02-24,23688,7.19,3.15,66.15,27.0,few clouds,False,False,winter
+2015-02-25,21592,9.08,7.67,77.31,11.1,few clouds,False,False,winter
+2015-02-26,20036,9.25,7.44,81.73,16.92,rain,False,False,winter
+2015-02-27,24367,5.94,3.1,66.27,14.31,clear,False,False,winter
+2015-02-28,13529,8.69,5.75,83.58,23.08,partly cloudy,False,True,winter
+2015-03-01,15641,9.19,6.42,66.69,29.58,few clouds,False,True,spring
+2015-03-02,22258,6.06,1.73,62.81,28.31,clear,False,False,spring
+2015-03-03,23845,6.58,2.85,64.19,23.04,few clouds,False,False,spring
+2015-03-04,24485,6.69,3.27,64.67,20.21,clear,False,False,spring
+2015-03-05,24896,7.5,5.21,65.27,16.69,clear,False,False,spring
+2015-03-06,25337,9.1,7.19,63.29,17.52,clear,False,False,spring
+2015-03-07,27365,11.04,9.65,64.31,18.4,clear,False,True,spring
+2015-03-08,20017,10.04,9.04,78.85,14.23,few clouds,False,True,spring
+2015-03-09,24037,8.35,6.42,82.83,14.31,partly cloudy,False,False,spring
+2015-03-10,27674,8.92,7.4,65.46,10.62,clear,False,False,spring
+2015-03-11,27419,8.75,7.6,73.73,11.23,clear,False,False,spring
+2015-03-12,28131,10.0,8.96,56.21,13.58,clear,False,False,spring
+2015-03-13,25700,8.5,6.62,61.27,17.77,clear,False,False,spring
+2015-03-14,18101,6.15,2.96,66.98,17.96,cloudy,False,True,spring
+2015-03-15,10662,6.31,3.31,82.21,16.31,rain,False,True,spring
+2015-03-16,19824,7.0,4.52,81.77,13.69,partly cloudy,False,False,spring
+2015-03-17,25780,8.48,7.17,85.88,10.21,few clouds,False,False,spring
+2015-03-18,26439,6.9,4.58,80.06,12.21,partly cloudy,False,False,spring
+2015-03-19,24077,7.25,4.54,79.15,15.08,cloudy,False,False,spring
+2015-03-20,25226,7.54,5.83,75.48,9.85,clear,False,False,spring
+2015-03-21,16116,7.62,4.9,72.04,16.48,partly cloudy,False,True,spring
+2015-03-22,18618,5.85,3.33,67.73,12.4,partly cloudy,False,True,spring
+2015-03-23,25592,8.0,6.48,66.17,11.92,few clouds,False,False,spring
+2015-03-24,24083,7.54,5.92,69.81,9.35,rain,False,False,spring
+2015-03-25,25672,6.21,4.65,67.08,7.94,clear,False,False,spring
+2015-03-26,20305,8.42,6.19,70.38,20.83,clear,False,False,spring
+2015-03-27,26348,8.83,6.92,60.5,15.73,clear,False,False,spring
+2015-03-28,18986,11.56,11.15,80.12,22.9,partly cloudy,False,True,spring
+2015-03-29,8592,11.3,10.09,77.45,30.77,rain,False,True,spring
+2015-03-30,22106,9.62,7.4,64.56,26.33,few clouds,False,False,spring
+2015-03-31,22602,10.85,9.7,55.15,41.9,clear,False,False,spring
+2015-04-01,23539,8.5,4.94,59.85,31.71,few clouds,False,False,spring
+2015-04-02,22682,9.06,7.12,66.35,14.81,clear,False,False,spring
+2015-04-03,11298,9.4,8.58,88.08,7.92,rain,True,False,spring
+2015-04-04,12864,8.87,7.02,77.7,12.26,partly cloudy,False,True,spring
+2015-04-05,19369,8.79,8.27,71.12,7.02,partly cloudy,False,True,spring
+2015-04-06,25439,9.25,7.77,73.58,13.35,clear,True,False,spring
+2015-04-07,29441,11.08,10.92,68.06,6.6,clear,False,False,spring
+2015-04-08,30643,11.75,11.38,73.96,11.02,clear,False,False,spring
+2015-04-09,31520,10.5,9.56,79.31,10.56,clear,False,False,spring
+2015-04-10,32052,13.04,12.54,68.0,11.92,clear,False,False,spring
+2015-04-11,25113,11.62,11.12,58.92,21.69,clear,False,True,spring
+2015-04-12,29204,11.79,10.92,58.65,20.21,clear,False,True,spring
+2015-04-13,28048,11.6,11.17,68.77,9.73,partly cloudy,False,False,spring
+2015-04-14,34519,15.65,14.9,60.77,17.17,clear,False,False,spring
+2015-04-15,37470,17.54,17.21,51.9,14.06,clear,False,False,spring
+2015-04-16,30489,11.69,10.9,66.96,19.62,clear,False,False,spring
+2015-04-17,29796,10.58,8.92,63.62,23.65,clear,False,False,spring
+2015-04-18,29595,9.65,8.15,63.88,22.58,few clouds,False,True,spring
+2015-04-19,19736,8.42,6.67,67.81,11.6,partly cloudy,False,True,spring
+2015-04-20,32057,11.06,10.44,64.44,13.85,clear,False,False,spring
+2015-04-21,34908,11.38,10.85,61.6,12.75,clear,False,False,spring
+2015-04-22,32381,10.4,9.48,72.48,16.85,clear,False,False,spring
+2015-04-23,32773,10.4,9.02,71.67,13.21,clear,False,False,spring
+2015-04-24,32102,13.02,12.69,68.65,14.17,clear,False,False,spring
+2015-04-25,25194,14.15,14.15,75.15,18.4,rain,False,True,spring
+2015-04-26,19427,9.65,8.29,83.33,11.19,partly cloudy,False,True,spring
+2015-04-27,30489,9.27,8.38,55.58,10.48,clear,False,False,spring
+2015-04-28,31783,9.71,7.88,53.48,23.04,clear,False,False,spring
+2015-04-29,26030,9.85,8.0,71.31,18.65,clear,False,False,spring
+2015-04-30,31621,10.75,9.44,57.75,18.29,clear,False,False,spring
+2015-05-01,29579,9.08,7.23,64.25,18.88,few clouds,False,False,spring
+2015-05-02,22231,9.75,8.44,74.52,21.06,clear,False,True,spring
+2015-05-03,21165,14.56,14.5,80.38,21.75,partly cloudy,False,True,spring
+2015-05-04,26795,14.6,14.6,67.21,18.81,few clouds,True,False,spring
+2015-05-05,26488,14.65,14.65,69.35,31.04,few clouds,False,False,spring
+2015-05-06,24438,12.5,12.25,70.54,32.17,rain,False,False,spring
+2015-05-07,31144,13.17,13.1,62.31,19.62,few clouds,False,False,spring
+2015-05-08,26878,13.08,12.98,71.17,12.1,clear,False,False,spring
+2015-05-09,27810,14.81,14.81,59.4,26.27,partly cloudy,False,True,spring
+2015-05-10,32226,14.77,14.65,66.58,13.69,few clouds,False,True,spring
+2015-05-11,33719,17.33,17.33,64.52,17.25,clear,False,False,spring
+2015-05-12,33820,14.56,14.56,53.42,23.23,clear,False,False,spring
+2015-05-13,36699,13.75,13.35,56.48,11.67,clear,False,False,spring
+2015-05-14,15609,9.9,7.9,84.96,21.38,rain,False,False,spring
+2015-05-15,32343,11.79,11.02,69.54,14.06,few clouds,False,False,spring
+2015-05-16,32526,15.15,15.15,59.88,19.92,clear,False,True,spring
+2015-05-17,31323,13.58,13.25,56.4,17.17,clear,False,True,spring
+2015-05-18,24288,12.42,11.98,68.29,25.1,few clouds,False,False,spring
+2015-05-19,28331,10.92,9.5,63.12,24.27,few clouds,False,False,spring
+2015-05-20,30534,11.52,10.46,61.19,18.69,clear,False,False,spring
+2015-05-21,34833,14.62,14.02,53.02,15.75,clear,False,False,spring
+2015-05-22,33435,15.69,15.4,65.71,13.67,clear,False,False,spring
+2015-05-23,23849,14.67,14.67,68.94,15.02,partly cloudy,False,True,spring
+2015-05-24,30018,15.79,15.79,64.31,11.48,partly cloudy,False,True,spring
+2015-05-25,29502,13.75,13.75,60.88,13.6,few clouds,True,False,spring
+2015-05-26,34809,14.92,14.92,60.06,14.6,clear,False,False,spring
+2015-05-27,36407,14.79,14.54,56.42,16.69,clear,False,False,spring
+2015-05-28,34387,15.04,15.04,49.94,23.21,clear,False,False,spring
+2015-05-29,26023,12.38,12.38,64.04,22.21,few clouds,False,False,spring
+2015-05-30,29206,13.08,12.42,57.77,17.83,clear,False,True,spring
+2015-05-31,14998,13.85,13.85,72.88,22.33,rain,False,True,spring
+2015-06-01,27864,12.1,11.44,62.83,23.65,few clouds,False,False,summer
+2015-06-02,27939,15.67,15.67,75.02,33.52,partly cloudy,False,False,summer
+2015-06-03,35377,16.12,16.12,53.06,17.58,clear,False,False,summer
+2015-06-04,39451,17.0,16.83,56.33,12.85,clear,False,False,summer
+2015-06-05,34563,19.83,19.83,63.5,19.45,clear,False,False,summer
+2015-06-06,32820,15.27,15.23,51.19,23.79,clear,False,True,summer
+2015-06-07,35407,15.0,14.92,55.98,12.52,clear,False,True,summer
+2015-06-08,32587,13.6,13.54,63.85,13.54,clear,False,False,summer
+2015-06-09,33255,12.04,11.31,59.19,21.02,few clouds,False,False,summer
+2015-06-10,35707,13.98,13.81,57.83,21.96,few clouds,False,False,summer
+2015-06-11,38808,16.81,16.69,63.1,20.42,clear,False,False,summer
+2015-06-12,35172,18.75,18.75,69.58,12.21,clear,False,False,summer
+2015-06-13,30298,17.46,17.46,77.35,18.33,cloudy,False,True,summer
+2015-06-14,25235,14.85,14.85,78.5,13.15,partly cloudy,False,True,summer
+2015-06-15,34558,14.27,14.27,64.71,16.88,few clouds,False,False,summer
+2015-06-16,37923,17.04,16.9,58.54,8.12,clear,False,False,summer
+2015-06-17,38591,19.65,19.65,65.54,21.92,clear,False,False,summer
+2015-06-18,38687,17.88,17.88,57.25,18.08,clear,False,False,summer
+2015-06-19,35966,16.35,16.35,58.54,16.02,few clouds,False,False,summer
+2015-06-20,26295,16.65,16.65,74.81,9.75,partly cloudy,False,True,summer
+2015-06-21,30393,17.46,17.46,62.69,23.04,partly cloudy,False,True,summer
+2015-06-22,29557,14.69,14.69,70.85,20.92,few clouds,False,False,summer
+2015-06-23,37472,15.81,15.81,60.44,14.1,partly cloudy,False,False,summer
+2015-06-24,38940,18.62,18.44,57.21,16.08,clear,False,False,summer
+2015-06-25,38673,19.65,19.58,56.98,13.54,clear,False,False,summer
+2015-06-26,37019,20.6,20.6,55.25,15.92,clear,False,False,summer
+2015-06-27,36581,19.54,19.21,57.35,17.0,clear,False,True,summer
+2015-06-28,25706,19.12,19.12,64.25,15.33,few clouds,False,True,summer
+2015-06-29,39082,20.58,20.46,54.65,13.42,clear,False,False,summer
+2015-06-30,43326,22.38,22.0,50.35,14.9,clear,False,False,summer
+2015-07-01,42641,27.38,27.44,50.98,17.31,clear,False,False,summer
+2015-07-02,38262,22.29,22.29,64.56,15.21,clear,False,False,summer
+2015-07-03,39611,19.92,19.88,63.67,17.46,clear,False,False,summer
+2015-07-04,38283,22.23,22.23,66.17,17.44,clear,False,True,summer
+2015-07-05,29716,18.65,18.6,64.67,13.73,clear,False,True,summer
+2015-07-06,38620,18.98,18.73,58.98,15.48,clear,False,False,summer
+2015-07-07,37908,19.46,19.35,58.12,21.52,clear,False,False,summer
+2015-07-08,41703,17.81,17.81,62.44,23.83,partly cloudy,False,False,summer
+2015-07-09,72504,17.79,17.54,48.98,12.98,clear,False,False,summer
+2015-07-10,42779,20.83,20.33,47.23,12.85,clear,False,False,summer
+2015-07-11,42091,21.38,21.29,54.23,17.42,clear,False,True,summer
+2015-07-12,23240,18.52,18.52,75.48,21.69,partly cloudy,False,True,summer
+2015-07-13,26920,18.96,18.96,81.46,20.04,partly cloudy,False,False,summer
+2015-07-14,35348,19.42,19.42,76.65,15.98,partly cloudy,False,False,summer
+2015-07-15,34574,19.65,19.65,76.92,12.0,partly cloudy,False,False,summer
+2015-07-16,39306,19.92,19.92,65.48,22.04,partly cloudy,False,False,summer
+2015-07-17,38505,20.44,20.44,62.71,19.96,few clouds,False,False,summer
+2015-07-18,38491,18.71,18.46,53.96,17.58,clear,False,True,summer
+2015-07-19,36693,20.0,19.71,49.29,18.98,clear,False,True,summer
+2015-07-20,27163,19.14,19.14,77.88,13.36,partly cloudy,False,False,summer
+2015-07-21,40696,20.4,20.4,58.35,22.4,clear,False,False,summer
+2015-07-22,37915,19.33,19.23,60.96,17.75,few clouds,False,False,summer
+2015-07-23,39092,18.17,18.12,56.52,13.56,clear,False,False,summer
+2015-07-24,16034,15.85,15.85,75.42,11.46,rain,False,False,summer
+2015-07-25,32608,16.69,16.69,61.71,19.92,clear,False,True,summer
+2015-07-26,12398,15.46,15.46,77.62,16.25,clear,False,True,summer
+2015-07-27,31904,17.77,17.77,67.19,28.21,partly cloudy,False,False,summer
+2015-07-28,36101,17.12,17.12,58.79,27.85,few clouds,False,False,summer
+2015-07-29,36761,15.83,15.83,60.9,19.67,few clouds,False,False,summer
+2015-07-30,36145,15.94,15.94,60.21,14.85,few clouds,False,False,summer
+2015-07-31,36675,16.96,16.9,58.65,8.19,clear,False,False,summer
+2015-08-01,43017,17.67,17.56,55.69,12.6,clear,False,True,summer
+2015-08-02,43295,19.79,19.54,57.77,12.5,clear,False,True,summer
+2015-08-03,35402,19.83,19.83,68.25,17.62,clear,False,False,summer
+2015-08-04,37644,18.27,18.25,61.0,22.92,clear,False,False,summer
+2015-08-05,38770,18.38,18.35,64.56,11.06,clear,False,False,summer
+2015-08-06,63468,19.44,19.44,67.71,14.9,clear,False,False,summer
+2015-08-07,39486,19.52,19.52,62.71,8.96,few clouds,False,False,summer
+2015-08-08,38993,19.73,19.73,69.44,11.04,clear,False,True,summer
+2015-08-09,40441,21.25,21.1,55.81,12.27,clear,False,True,summer
+2015-08-10,35335,20.33,20.33,74.02,18.1,partly cloudy,False,False,summer
+2015-08-11,34318,18.31,18.31,64.56,7.44,few clouds,False,False,summer
+2015-08-12,36548,18.54,18.54,70.4,16.77,partly cloudy,False,False,summer
+2015-08-13,25974,18.94,18.94,83.9,15.15,cloudy,False,False,summer
+2015-08-14,25419,19.02,19.02,85.6,12.54,partly cloudy,False,False,summer
+2015-08-15,33739,17.58,17.58,63.29,13.5,clear,False,True,summer
+2015-08-16,30616,16.81,16.81,63.42,7.0,clear,False,True,summer
+2015-08-17,35695,17.81,17.81,55.77,9.67,clear,False,False,summer
+2015-08-18,34530,17.62,17.62,59.52,16.15,clear,False,False,summer
+2015-08-19,31640,17.94,17.94,68.5,15.08,few clouds,False,False,summer
+2015-08-20,32554,19.04,19.04,81.38,13.81,partly cloudy,False,False,summer
+2015-08-21,35882,22.1,22.1,68.92,14.56,clear,False,False,summer
+2015-08-22,44187,23.21,23.19,62.77,12.29,clear,False,True,summer
+2015-08-23,27001,19.5,19.5,68.0,16.85,clear,False,True,summer
+2015-08-24,17400,15.83,15.83,87.46,13.38,rain,False,False,summer
+2015-08-25,28152,16.21,16.21,79.33,20.1,few clouds,False,False,summer
+2015-08-26,23738,18.25,18.25,80.73,21.98,rain,False,False,summer
+2015-08-27,30528,16.77,16.77,73.04,17.5,few clouds,False,False,summer
+2015-08-28,32950,16.96,16.96,66.94,15.81,clear,False,False,summer
+2015-08-29,22618,18.29,18.27,72.73,7.77,clear,False,True,summer
+2015-08-30,24972,17.83,17.83,80.31,10.48,partly cloudy,False,True,summer
+2015-08-31,9639,15.48,15.48,89.54,10.44,rain,True,False,summer
+2015-09-01,25556,15.48,15.48,79.83,9.5,few clouds,False,False,autumn
+2015-09-02,30180,14.69,14.69,73.25,10.23,few clouds,False,False,autumn
+2015-09-03,30950,13.94,13.94,68.75,12.96,few clouds,False,False,autumn
+2015-09-04,29709,14.29,14.29,65.33,13.12,few clouds,False,False,autumn
+2015-09-05,22317,13.44,13.44,71.48,11.29,partly cloudy,False,True,autumn
+2015-09-06,29429,14.12,13.85,64.71,9.81,clear,False,True,autumn
+2015-09-07,31692,14.33,14.33,72.17,9.81,clear,False,False,autumn
+2015-09-08,32781,14.15,14.15,73.38,8.38,partly cloudy,False,False,autumn
+2015-09-09,33116,15.81,15.81,71.65,14.08,partly cloudy,False,False,autumn
+2015-09-10,35734,16.19,16.19,71.83,15.0,clear,False,False,autumn
+2015-09-11,33190,16.57,16.57,71.95,16.84,clear,False,False,autumn
+2015-09-12,27023,18.28,18.28,63.81,17.53,few clouds,False,True,autumn
+2015-09-13,26166,14.02,14.02,73.0,10.96,clear,False,True,autumn
+2015-09-14,25811,14.5,14.5,78.77,18.62,rain,False,False,autumn
+2015-09-15,28066,14.25,14.25,74.96,18.0,few clouds,False,False,autumn
+2015-09-16,18653,13.75,13.75,89.67,13.42,rain,False,False,autumn
+2015-09-17,32075,14.79,14.79,72.75,16.69,few clouds,False,False,autumn
+2015-09-18,29829,15.06,15.06,78.4,9.5,few clouds,False,False,autumn
+2015-09-19,31826,15.2,15.2,70.96,6.98,clear,False,True,autumn
+2015-09-20,31141,15.42,15.42,73.67,11.35,clear,False,True,autumn
+2015-09-21,23676,14.71,14.71,83.56,13.46,few clouds,False,False,autumn
+2015-09-22,20434,12.42,12.42,83.15,12.56,clear,False,False,autumn
+2015-09-23,33977,14.12,13.92,71.46,18.29,few clouds,False,False,autumn
+2015-09-24,29396,15.58,15.58,71.69,19.94,few clouds,False,False,autumn
+2015-09-25,34783,13.73,13.73,67.52,10.73,clear,False,False,autumn
+2015-09-26,32636,13.19,13.17,68.94,8.5,clear,False,True,autumn
+2015-09-27,29817,13.65,13.58,72.58,11.65,clear,False,True,autumn
+2015-09-28,33138,13.98,13.98,74.19,14.92,clear,False,False,autumn
+2015-09-29,34436,14.75,14.75,70.1,16.35,clear,False,False,autumn
+2015-09-30,34941,14.31,14.31,68.17,17.02,clear,False,False,autumn
+2015-10-01,34562,14.25,14.25,71.88,15.77,clear,False,False,autumn
+2015-10-02,35503,13.69,13.69,73.31,10.73,clear,False,False,autumn
+2015-10-03,28956,12.67,12.67,81.23,5.71,partly cloudy,False,True,autumn
+2015-10-04,29884,13.33,13.1,72.83,9.85,clear,False,True,autumn
+2015-10-05,20741,15.9,15.9,87.94,13.75,rain,False,False,autumn
+2015-10-06,25892,16.65,16.65,87.23,12.42,rain,False,False,autumn
+2015-10-07,28629,14.88,14.88,81.94,19.08,partly cloudy,False,False,autumn
+2015-10-08,33676,12.4,11.81,72.83,8.42,clear,False,False,autumn
+2015-10-09,32006,12.57,12.5,76.76,6.91,clear,False,False,autumn
+2015-10-10,29416,13.0,12.98,81.31,11.12,few clouds,False,True,autumn
+2015-10-11,27796,12.29,12.04,72.56,13.21,clear,False,True,autumn
+2015-10-12,31292,11.27,10.96,70.08,10.0,partly cloudy,False,False,autumn
+2015-10-13,20114,10.58,9.42,73.42,14.53,clear,False,False,autumn
+2015-10-14,30579,10.48,9.81,75.04,13.5,few clouds,False,False,autumn
+2015-10-15,30874,11.23,10.56,77.88,13.15,few clouds,False,False,autumn
+2015-10-16,30075,12.5,12.5,78.56,16.48,partly cloudy,False,False,autumn
+2015-10-17,24327,12.06,12.06,76.75,13.75,partly cloudy,False,True,autumn
+2015-10-18,23070,13.04,13.04,79.73,9.15,partly cloudy,False,True,autumn
+2015-10-19,29952,12.73,12.73,79.19,7.38,partly cloudy,False,False,autumn
+2015-10-20,32718,11.54,11.25,75.52,8.02,few clouds,False,False,autumn
+2015-10-21,18922,12.5,12.29,88.44,15.52,rain,False,False,autumn
+2015-10-22,30326,13.98,13.98,69.92,16.92,partly cloudy,False,False,autumn
+2015-10-23,30273,12.88,12.88,65.5,7.52,cloudy,False,False,autumn
+2015-10-24,16876,12.73,12.52,77.75,10.79,rain,False,True,autumn
+2015-10-25,23133,9.0,7.83,75.7,8.51,clear,False,True,autumn
+2015-10-26,30364,11.71,11.0,85.92,13.56,partly cloudy,False,False,autumn
+2015-10-27,32436,14.4,14.4,84.96,12.23,clear,False,False,autumn
+2015-10-28,23881,13.58,13.58,84.77,10.88,rain,False,False,autumn
+2015-10-29,27339,13.42,13.27,87.79,13.4,few clouds,False,False,autumn
+2015-10-30,23970,14.69,14.69,82.04,13.58,clear,False,False,autumn
+2015-10-31,27464,12.38,12.38,87.9,9.75,clear,False,True,autumn
+2015-11-01,22848,9.21,8.85,97.69,5.21,cloudy,False,True,autumn
+2015-11-02,28033,10.5,10.04,95.0,9.17,partly cloudy,False,False,autumn
+2015-11-03,30710,11.9,11.71,88.62,9.04,partly cloudy,False,False,autumn
+2015-11-04,23462,13.48,13.48,88.54,8.4,few clouds,False,False,autumn
+2015-11-05,24503,15.17,15.17,87.44,14.33,partly cloudy,False,False,autumn
+2015-11-06,25431,16.23,16.23,84.81,18.12,partly cloudy,False,False,autumn
+2015-11-07,14881,15.77,15.77,83.65,22.9,rain,False,True,autumn
+2015-11-08,18754,14.17,14.06,85.48,16.29,partly cloudy,False,True,autumn
+2015-11-09,28474,13.88,13.88,73.98,27.04,partly cloudy,False,False,autumn
+2015-11-10,29206,15.75,15.75,81.48,22.94,partly cloudy,False,False,autumn
+2015-11-11,29899,14.77,14.77,71.71,20.33,partly cloudy,False,False,autumn
+2015-11-12,28962,14.25,14.25,81.19,17.23,few clouds,False,False,autumn
+2015-11-13,25252,10.67,8.83,66.0,27.94,clear,False,False,autumn
+2015-11-14,8898,11.25,9.79,81.29,23.33,rain,False,True,autumn
+2015-11-15,17594,15.52,15.52,72.48,34.06,partly cloudy,False,True,autumn
+2015-11-16,26507,13.65,13.65,73.62,21.88,few clouds,False,False,autumn
+2015-11-17,22768,14.77,14.77,77.39,29.2,rain,False,False,autumn
+2015-11-18,25926,14.03,14.03,69.5,31.67,few clouds,False,False,autumn
+2015-11-19,23695,11.58,11.19,80.0,21.52,rain,False,False,autumn
+2015-11-20,25788,9.06,6.1,67.5,22.31,few clouds,False,False,autumn
+2015-11-21,12751,4.38,-0.38,68.02,26.25,clear,False,True,autumn
+2015-11-22,13118,3.52,0.79,74.67,10.67,clear,False,True,autumn
+2015-11-23,23908,5.04,2.73,74.96,11.15,clear,False,False,autumn
+2015-11-24,21175,9.04,6.23,83.71,19.92,rain,False,False,autumn
+2015-11-25,26000,8.94,6.94,76.67,16.17,few clouds,False,False,autumn
+2015-11-26,26626,9.4,8.52,86.31,7.54,partly cloudy,False,False,autumn
+2015-11-27,23517,11.29,10.54,83.67,20.73,partly cloudy,False,False,autumn
+2015-11-28,16336,8.12,5.35,69.81,27.25,clear,False,True,autumn
+2015-11-29,11392,12.04,12.04,72.04,34.08,partly cloudy,False,True,autumn
+2015-11-30,20918,12.02,11.48,77.52,26.07,partly cloudy,False,False,autumn
+2015-12-01,26559,13.04,12.98,74.31,20.25,partly cloudy,False,False,winter
+2015-12-02,27789,13.02,13.02,72.48,20.75,few clouds,False,False,winter
+2015-12-03,25899,12.92,12.92,76.94,21.12,few clouds,False,False,winter
+2015-12-04,25956,11.04,9.98,70.27,25.06,few clouds,False,False,winter
+2015-12-05,16511,12.65,12.65,66.27,36.83,few clouds,False,True,winter
+2015-12-06,15478,13.44,13.44,80.27,23.15,partly cloudy,False,True,winter
+2015-12-07,25734,13.31,13.31,81.54,14.48,partly cloudy,False,False,winter
+2015-12-08,23430,12.27,11.71,73.75,20.75,clear,False,False,winter
+2015-12-09,27562,9.58,8.46,73.9,18.27,clear,False,False,winter
+2015-12-10,23115,11.54,11.38,77.9,22.44,partly cloudy,False,False,winter
+2015-12-11,23259,10.08,8.88,76.04,20.38,few clouds,False,False,winter
+2015-12-12,15815,11.68,11.2,73.08,23.38,partly cloudy,False,True,winter
+2015-12-13,12291,8.44,6.94,91.35,10.25,rain,False,True,winter
+2015-12-14,23835,9.21,7.73,84.98,9.73,partly cloudy,False,False,winter
+2015-12-15,20201,11.46,11.12,92.25,10.71,partly cloudy,False,False,winter
+2015-12-16,25558,14.48,14.48,81.69,20.46,partly cloudy,False,False,winter
+2015-12-17,25804,14.31,14.31,72.46,18.94,clear,False,False,winter
+2015-12-18,25730,13.1,13.1,79.04,17.19,few clouds,False,False,winter
+2015-12-19,18754,15.38,15.38,74.54,22.33,clear,False,True,winter
+2015-12-20,13060,12.77,12.54,74.29,20.38,clear,False,True,winter
+2015-12-21,18136,10.88,9.69,77.54,22.6,clear,False,False,winter
+2015-12-22,17458,14.19,14.19,80.67,31.4,rain,False,False,winter
+2015-12-23,18451,11.35,11.08,69.04,23.17,few clouds,False,False,winter
+2015-12-24,8908,10.92,9.9,68.31,25.56,clear,False,False,winter
+2015-12-25,22423,11.27,10.35,79.44,18.04,rain,True,False,winter
+2015-12-26,10230,14.73,14.73,74.08,27.42,partly cloudy,False,True,winter
+2015-12-27,9378,14.33,14.33,81.15,22.0,partly cloudy,False,True,winter
+2015-12-28,13732,11.73,11.56,73.42,15.04,clear,True,False,winter
+2015-12-29,15592,11.75,11.58,74.52,17.21,few clouds,False,False,winter
+2015-12-30,12301,12.58,12.54,69.38,25.08,rain,False,False,winter
+2015-12-31,13889,9.52,7.23,69.31,23.4,few clouds,False,False,winter
+2016-01-01,9797,6.5,3.73,82.5,16.73,clear,True,False,winter
+2016-01-02,7195,10.5,9.4,87.02,21.6,rain,False,True,winter
+2016-01-03,4869,8.65,6.35,83.5,16.19,rain,False,True,winter
+2016-01-04,20533,8.88,7.04,82.56,12.5,few clouds,False,False,winter
+2016-01-05,22805,8.98,7.9,85.67,8.44,few clouds,False,False,winter
+2016-01-06,23038,7.04,5.96,90.29,6.54,partly cloudy,False,False,winter
+2016-01-07,18083,7.96,4.6,76.06,24.23,rain,False,False,winter
+2016-01-08,20762,7.35,5.08,77.94,12.65,few clouds,False,False,winter
+2016-01-09,11583,9.67,8.15,81.31,18.04,rain,False,True,winter
+2016-01-10,14320,7.25,4.17,75.38,18.92,clear,False,True,winter
+2016-01-11,21092,7.04,4.23,82.6,16.52,partly cloudy,False,False,winter
+2016-01-12,22799,6.19,1.83,77.96,27.81,few clouds,False,False,winter
+2016-01-13,24586,5.83,2.48,71.48,18.1,clear,False,False,winter
+2016-01-14,22186,4.48,-0.21,73.02,25.94,clear,False,False,winter
+2016-01-15,22446,4.0,-0.29,70.02,21.44,few clouds,False,False,winter
+2016-01-16,16091,3.1,0.56,75.62,9.56,clear,False,True,winter
+2016-01-17,11762,2.96,0.75,80.31,9.06,snow,False,True,winter
+2016-01-18,22762,2.94,0.12,75.38,11.44,few clouds,False,False,winter
+2016-01-19,23819,1.31,0.96,68.52,2.77,clear,False,False,winter
+2016-01-20,23800,1.56,0.35,77.42,5.42,clear,False,False,winter
+2016-01-21,23378,3.69,1.19,76.58,10.46,clear,False,False,winter
+2016-01-22,18328,8.06,5.6,79.9,15.35,clear,False,False,winter
+2016-01-23,17218,8.67,6.73,83.69,13.69,clear,False,True,winter
+2016-01-24,16360,12.44,12.1,88.12,14.98,partly cloudy,False,True,winter
+2016-01-25,25724,12.19,11.85,72.38,19.79,clear,False,False,winter
+2016-01-26,20224,10.19,8.98,80.33,27.21,rain,False,False,winter
+2016-01-27,21708,12.08,11.56,80.1,30.54,partly cloudy,False,False,winter
+2016-01-28,25324,7.88,4.62,65.65,22.27,clear,False,False,winter
+2016-01-29,22526,11.79,11.62,77.94,33.79,partly cloudy,False,False,winter
+2016-01-30,16381,8.27,5.12,67.85,27.04,clear,False,True,winter
+2016-01-31,11019,10.04,8.77,79.17,22.5,partly cloudy,False,True,winter
+2016-02-01,23606,12.77,12.6,68.12,34.94,partly cloudy,False,False,winter
+2016-02-02,24514,9.0,5.33,61.19,30.06,few clouds,False,False,winter
+2016-02-03,24436,6.23,2.54,68.21,22.12,clear,False,False,winter
+2016-02-04,25154,10.29,8.98,76.71,21.98,partly cloudy,False,False,winter
+2016-02-05,22597,10.85,10.44,78.94,22.33,partly cloudy,False,False,winter
+2016-02-06,13126,11.04,9.71,75.75,31.08,partly cloudy,False,True,winter
+2016-02-07,14025,8.24,4.59,71.0,27.41,few clouds,False,True,winter
+2016-02-08,19497,8.83,4.39,63.17,41.39,partly cloudy,False,False,winter
+2016-02-09,23308,6.33,2.65,68.25,21.38,few clouds,False,False,winter
+2016-02-10,23626,6.6,3.35,71.83,18.71,partly cloudy,False,False,winter
+2016-02-11,25186,5.21,3.15,72.62,9.06,few clouds,False,False,winter
+2016-02-12,22819,4.75,1.96,83.92,13.04,partly cloudy,False,False,winter
+2016-02-13,9869,4.25,0.67,85.56,18.44,rain,False,True,winter
+2016-02-14,13697,4.44,1.06,72.88,15.98,clear,False,True,winter
+2016-02-15,21789,3.67,0.06,75.46,16.31,few clouds,False,False,winter
+2016-02-16,24386,3.67,1.81,76.46,9.25,clear,False,False,winter
+2016-02-17,19034,4.81,2.04,76.52,12.38,partly cloudy,False,False,winter
+2016-02-18,23517,5.27,2.56,71.96,13.21,few clouds,False,False,winter
+2016-02-19,22173,6.21,2.88,78.96,19.54,clear,False,False,winter
+2016-02-20,10745,11.17,10.09,80.83,27.96,rain,False,True,winter
+2016-02-21,14670,13.21,13.21,79.19,30.79,partly cloudy,False,True,winter
+2016-02-22,20463,9.04,7.19,73.27,16.92,rain,False,False,winter
+2016-02-23,25657,6.44,4.5,68.04,10.9,few clouds,False,False,winter
+2016-02-24,25481,3.83,3.19,69.48,4.77,clear,False,False,winter
+2016-02-25,24174,3.15,1.17,69.27,8.58,clear,False,False,winter
+2016-02-26,23580,3.92,1.46,68.69,11.52,clear,False,False,winter
+2016-02-27,14745,4.88,1.46,62.98,17.77,cloudy,False,True,winter
+2016-02-28,13451,5.06,1.38,64.29,19.6,partly cloudy,False,True,winter
+2016-02-29,23585,5.5,3.69,65.54,9.33,few clouds,False,False,winter
+2016-03-01,20704,9.35,7.17,80.02,25.33,partly cloudy,False,False,spring
+2016-03-02,20635,6.31,1.79,72.19,31.0,few clouds,False,False,spring
+2016-03-03,24416,7.02,3.56,67.65,21.79,few clouds,False,False,spring
+2016-03-04,23970,6.08,3.19,65.88,16.85,few clouds,False,False,spring
+2016-03-05,12215,3.79,0.67,80.08,14.71,clear,False,True,spring
+2016-03-06,12510,4.29,1.19,74.54,14.0,few clouds,False,True,spring
+2016-03-07,22672,4.79,1.73,65.79,14.65,clear,False,False,spring
+2016-03-08,23129,5.44,2.62,71.4,15.0,clear,False,False,spring
+2016-03-09,19142,8.02,5.23,86.83,17.0,rain,False,False,spring
+2016-03-10,23504,6.79,5.38,83.4,7.52,partly cloudy,False,False,spring
+2016-03-11,20893,5.1,3.79,83.19,7.21,clear,False,False,spring
+2016-03-12,21573,6.94,6.15,82.19,6.23,partly cloudy,False,True,spring
+2016-03-13,21687,5.33,2.73,81.92,14.67,cloudy,False,True,spring
+2016-03-14,25448,6.69,3.29,68.58,20.98,clear,False,False,spring
+2016-03-15,25224,6.4,4.21,84.75,12.69,partly cloudy,False,False,spring
+2016-03-16,25322,7.29,3.75,73.85,22.08,partly cloudy,False,False,spring
+2016-03-17,27060,6.42,4.42,70.79,12.17,clear,False,False,spring
+2016-03-18,23047,5.67,3.12,81.5,12.35,partly cloudy,False,False,spring
+2016-03-19,17903,7.21,4.4,72.0,16.19,cloudy,False,True,spring
+2016-03-20,17043,7.92,6.0,71.96,12.79,cloudy,False,True,spring
+2016-03-21,25852,8.94,8.04,68.69,10.83,partly cloudy,False,False,spring
+2016-03-22,29150,8.67,8.21,65.06,6.0,clear,False,False,spring
+2016-03-23,26837,8.81,8.21,66.73,6.21,partly cloudy,False,False,spring
+2016-03-24,19329,8.98,6.77,75.92,17.17,rain,False,False,spring
+2016-03-25,25236,10.69,9.27,66.4,14.12,clear,True,False,spring
+2016-03-26,10053,10.82,9.5,79.68,22.58,partly cloudy,False,True,spring
+2016-03-27,8123,9.71,7.46,72.75,29.5,rain,False,True,spring
+2016-03-28,10216,8.88,5.65,72.71,34.62,rain,True,False,spring
+2016-03-29,18814,8.56,5.85,69.62,23.1,few clouds,False,False,spring
+2016-03-30,26516,9.27,7.48,66.15,17.73,few clouds,False,False,spring
+2016-03-31,28304,8.79,7.79,63.15,10.67,clear,False,False,spring
+2016-04-01,27137,8.52,7.9,66.5,11.17,clear,False,False,spring
+2016-04-02,24367,10.73,9.46,62.12,14.83,clear,False,True,spring
+2016-04-03,24941,11.56,11.04,77.54,11.31,rain,False,True,spring
+2016-04-04,25109,11.08,10.5,77.52,13.58,clear,False,False,spring
+2016-04-05,30575,11.58,10.92,65.71,14.92,few clouds,False,False,spring
+2016-04-06,24002,9.5,7.21,65.81,26.44,clear,False,False,spring
+2016-04-07,18358,7.93,4.76,75.02,21.09,rain,False,False,spring
+2016-04-08,27191,9.58,8.44,72.42,11.19,clear,False,False,spring
+2016-04-09,19704,8.98,7.0,70.69,15.83,few clouds,False,True,spring
+2016-04-10,23418,8.29,6.38,67.08,20.38,clear,False,True,spring
+2016-04-11,24010,11.9,11.31,78.62,16.04,clear,False,False,spring
+2016-04-12,30745,12.17,11.6,66.5,12.9,clear,False,False,spring
+2016-04-13,31762,12.56,12.35,58.92,7.02,clear,False,False,spring
+2016-04-14,30611,13.17,12.96,61.48,9.96,clear,False,False,spring
+2016-04-15,15761,10.6,10.12,86.15,9.27,rain,False,False,spring
+2016-04-16,17571,7.04,4.35,72.88,15.75,partly cloudy,False,True,spring
+2016-04-17,26885,7.58,6.4,59.08,8.65,clear,False,True,spring
+2016-04-18,28220,9.52,8.35,60.81,17.08,clear,False,False,spring
+2016-04-19,33342,11.29,10.35,61.54,12.85,clear,False,False,spring
+2016-04-20,34197,9.12,7.65,72.27,19.12,clear,False,False,spring
+2016-04-21,31612,10.62,9.48,67.31,20.19,clear,False,False,spring
+2016-04-22,20342,9.12,6.83,74.17,19.48,rain,False,False,spring
+2016-04-23,21762,7.6,5.4,64.54,13.69,few clouds,False,True,spring
+2016-04-24,18597,7.27,5.04,65.54,12.85,rain,False,True,spring
+2016-04-25,24149,8.04,5.73,74.21,18.27,few clouds,False,False,spring
+2016-04-26,27628,6.29,2.62,61.62,20.94,clear,False,False,spring
+2016-04-27,28157,6.56,4.06,63.27,13.75,rain,False,False,spring
+2016-04-28,28609,7.94,6.17,64.19,16.96,clear,False,False,spring
+2016-04-29,25385,8.58,5.71,60.44,24.23,clear,False,False,spring
+2016-04-30,24698,9.08,7.96,55.98,12.27,clear,False,True,spring
+2016-05-01,29249,11.0,10.62,58.29,12.44,clear,False,True,spring
+2016-05-02,19428,12.71,12.58,76.12,20.77,few clouds,True,False,spring
+2016-05-03,31962,11.71,10.85,54.38,14.65,clear,False,False,spring
+2016-05-04,36182,13.27,13.0,46.92,11.06,clear,False,False,spring
+2016-05-05,38684,14.12,13.92,51.0,14.48,clear,False,False,spring
+2016-05-06,39589,15.06,14.94,62.77,13.4,clear,False,False,spring
+2016-05-07,43819,17.44,17.38,63.35,13.31,clear,False,True,spring
+2016-05-08,44758,19.25,19.23,57.15,15.56,clear,False,True,spring
+2016-05-09,30507,17.71,17.65,65.73,16.15,clear,False,False,spring
+2016-05-10,21452,15.83,15.83,91.1,14.96,rain,False,False,spring
+2016-05-11,27574,16.08,16.08,91.35,9.96,rain,False,False,spring
+2016-05-12,38082,17.71,17.62,69.81,15.67,clear,False,False,spring
+2016-05-13,34706,13.38,13.02,73.96,18.29,partly cloudy,False,False,spring
+2016-05-14,30046,10.29,8.98,56.75,14.25,partly cloudy,False,True,spring
+2016-05-15,34302,12.19,11.96,58.27,12.4,clear,False,True,spring
+2016-05-16,37045,14.17,14.1,62.19,8.98,clear,False,False,spring
+2016-05-17,36445,14.46,14.46,61.98,15.6,clear,False,False,spring
+2016-05-18,24111,12.92,12.92,79.98,15.23,rain,False,False,spring
+2016-05-19,34267,14.15,14.15,73.79,16.1,partly cloudy,False,False,spring
+2016-05-20,35674,15.98,15.98,67.0,20.23,few clouds,False,False,spring
+2016-05-21,26373,15.94,15.94,74.06,19.25,partly cloudy,False,True,spring
+2016-05-22,30628,15.17,15.17,67.48,9.42,few clouds,False,True,spring
+2016-05-23,35067,15.15,15.15,61.6,15.17,few clouds,False,False,spring
+2016-05-24,36184,12.94,12.73,63.77,15.27,few clouds,False,False,spring
+2016-05-25,31614,11.08,10.38,73.79,11.31,partly cloudy,False,False,spring
+2016-05-26,37113,14.35,14.35,68.73,9.83,clear,False,False,spring
+2016-05-27,35708,15.1,15.1,71.5,15.6,clear,False,False,spring
+2016-05-28,30831,14.35,14.31,77.33,11.27,few clouds,False,True,spring
+2016-05-29,30760,13.88,13.75,76.92,14.25,partly cloudy,False,True,spring
+2016-05-30,23697,14.42,14.42,75.25,19.94,partly cloudy,True,False,spring
+2016-05-31,16078,12.5,12.5,84.98,23.6,partly cloudy,False,False,spring
+2016-06-01,26871,12.75,12.75,89.25,17.58,partly cloudy,False,False,summer
+2016-06-02,28901,11.38,11.29,83.25,20.02,partly cloudy,False,False,summer
+2016-06-03,29254,11.29,10.5,84.9,12.27,partly cloudy,False,False,summer
+2016-06-04,29697,15.15,15.15,87.15,8.6,partly cloudy,False,True,summer
+2016-06-05,40229,16.42,16.42,79.15,12.0,few clouds,False,True,summer
+2016-06-06,39050,15.9,15.83,70.17,14.33,clear,False,False,summer
+2016-06-07,34676,17.5,17.5,72.21,8.46,clear,False,False,summer
+2016-06-08,34196,18.48,18.48,73.29,7.38,rain,False,False,summer
+2016-06-09,41165,15.6,15.6,75.38,11.35,clear,False,False,summer
+2016-06-10,39637,17.65,17.58,64.23,10.02,clear,False,False,summer
+2016-06-11,28628,18.17,18.17,73.5,7.06,rain,False,True,summer
+2016-06-12,17841,17.21,17.21,81.58,11.54,few clouds,False,True,summer
+2016-06-13,27293,16.69,16.69,81.25,15.31,partly cloudy,False,False,summer
+2016-06-14,29852,16.17,16.17,81.12,16.88,rain,False,False,summer
+2016-06-15,37311,16.48,16.48,68.15,15.92,few clouds,False,False,summer
+2016-06-16,31110,16.02,16.02,75.56,10.65,few clouds,False,False,summer
+2016-06-17,31641,15.52,15.52,80.9,10.0,few clouds,False,False,summer
+2016-06-18,29226,14.9,14.9,76.19,11.21,partly cloudy,False,True,summer
+2016-06-19,30954,16.96,16.96,72.69,16.38,partly cloudy,False,True,summer
+2016-06-20,22057,18.06,18.06,80.69,20.38,rain,False,False,summer
+2016-06-21,38551,18.77,18.77,65.67,16.12,few clouds,False,False,summer
+2016-06-22,36226,19.15,19.15,78.92,11.27,partly cloudy,False,False,summer
+2016-06-23,24852,19.94,19.94,89.96,10.6,rain,False,False,summer
+2016-06-24,18380,19.44,19.44,59.0,21.67,few clouds,False,False,summer
+2016-06-25,25939,16.06,16.06,73.46,13.56,rain,False,True,summer
+2016-06-26,29112,16.6,16.6,71.15,19.27,few clouds,False,True,summer
+2016-06-27,33299,18.06,18.06,68.96,16.04,clear,False,False,summer
+2016-06-28,31288,16.6,16.6,63.04,12.27,clear,False,False,summer
+2016-06-29,31210,15.44,15.44,78.27,23.02,partly cloudy,False,False,summer
+2016-06-30,35432,17.25,17.25,74.06,18.42,few clouds,False,False,summer
+2016-07-01,27730,16.77,16.77,73.29,22.27,partly cloudy,False,False,summer
+2016-07-02,30322,15.48,15.48,65.81,23.75,few clouds,False,True,summer
+2016-07-03,33668,16.85,16.85,65.65,14.44,clear,False,True,summer
+2016-07-04,37221,17.46,17.46,71.94,15.52,partly cloudy,False,False,summer
+2016-07-05,40463,18.04,18.04,63.35,19.48,partly cloudy,False,False,summer
+2016-07-06,42412,17.73,17.62,53.54,9.6,clear,False,False,summer
+2016-07-07,39157,19.33,19.31,59.9,14.38,clear,False,False,summer
+2016-07-08,36842,19.62,19.62,66.19,23.12,few clouds,False,False,summer
+2016-07-09,33968,20.12,20.12,67.75,19.75,clear,False,True,summer
+2016-07-10,29135,19.42,19.42,72.29,22.6,few clouds,False,True,summer
+2016-07-11,32420,18.04,18.04,73.69,22.0,partly cloudy,False,False,summer
+2016-07-12,29869,15.71,15.71,78.5,15.4,few clouds,False,False,summer
+2016-07-13,35691,15.48,15.48,70.44,15.15,rain,False,False,summer
+2016-07-14,39923,17.21,17.21,59.1,13.46,clear,False,False,summer
+2016-07-15,36601,17.4,17.4,69.54,16.71,clear,False,False,summer
+2016-07-16,38349,21.65,21.67,69.88,20.67,few clouds,False,True,summer
+2016-07-17,37769,22.98,23.0,67.25,17.85,few clouds,False,True,summer
+2016-07-18,43195,23.5,23.38,58.52,8.31,clear,False,False,summer
+2016-07-19,46021,24.65,24.73,62.6,14.46,clear,False,False,summer
+2016-07-20,44664,24.98,25.04,59.0,19.04,clear,False,False,summer
+2016-07-21,41272,20.81,20.81,61.88,11.1,clear,False,False,summer
+2016-07-22,35996,21.12,21.12,66.92,8.94,few clouds,False,False,summer
+2016-07-23,41466,22.12,22.12,64.33,9.98,clear,False,True,summer
+2016-07-24,38553,20.77,20.77,67.5,16.62,partly cloudy,False,True,summer
+2016-07-25,40577,20.44,20.1,58.92,18.42,clear,False,False,summer
+2016-07-26,42021,19.75,19.73,61.21,14.15,few clouds,False,False,summer
+2016-07-27,33339,20.46,20.46,71.83,16.96,rain,False,False,summer
+2016-07-28,31244,19.05,19.05,66.0,12.05,few clouds,False,False,summer
+2016-07-29,35353,19.9,19.9,72.23,17.71,few clouds,False,False,summer
+2016-07-30,45608,19.52,19.4,63.27,10.46,few clouds,False,True,summer
+2016-07-31,44678,18.8,18.78,55.48,10.74,few clouds,False,True,summer
+2016-08-01,29749,16.81,16.81,67.88,12.58,clear,False,False,summer
+2016-08-02,28593,18.85,18.85,86.77,17.31,partly cloudy,False,False,summer
+2016-08-03,40268,20.67,20.67,67.65,24.71,few clouds,False,False,summer
+2016-08-04,39082,19.23,19.17,62.96,23.83,few clouds,False,False,summer
+2016-08-05,35991,19.67,19.5,62.37,16.0,few clouds,False,False,summer
+2016-08-06,41885,20.5,20.5,58.73,14.35,clear,False,True,summer
+2016-08-07,38076,21.65,21.65,64.69,24.44,few clouds,False,True,summer
+2016-08-08,37769,18.35,18.35,54.33,21.42,clear,False,False,summer
+2016-08-09,39514,16.75,16.75,52.21,16.35,clear,False,False,summer
+2016-08-10,38430,16.23,16.23,59.1,14.44,clear,False,False,summer
+2016-08-11,37626,18.98,18.98,64.75,20.33,few clouds,False,False,summer
+2016-08-12,40159,21.02,21.0,61.62,21.21,clear,False,False,summer
+2016-08-13,43041,20.31,20.31,61.73,19.52,clear,False,True,summer
+2016-08-14,43848,19.25,19.06,53.94,9.17,clear,False,True,summer
+2016-08-15,40236,18.24,18.2,64.83,14.7,clear,False,False,summer
+2016-08-16,38911,18.02,18.02,68.59,14.05,few clouds,False,False,summer
+2016-08-17,42439,19.23,19.23,66.27,12.27,clear,False,False,summer
+2016-08-18,38983,19.44,19.33,69.08,13.25,clear,False,False,summer
+2016-08-19,25593,17.85,17.85,83.67,12.54,few clouds,False,False,summer
+2016-08-20,24371,17.94,17.94,70.08,26.23,few clouds,False,True,summer
+2016-08-21,28219,18.65,18.62,68.44,26.29,partly cloudy,False,True,summer
+2016-08-22,35693,20.75,20.75,68.67,20.31,few clouds,False,False,summer
+2016-08-23,42060,23.15,23.04,59.98,10.29,clear,False,False,summer
+2016-08-24,40664,25.48,25.56,60.1,6.81,clear,False,False,summer
+2016-08-25,37742,23.98,24.35,66.98,8.31,clear,False,False,summer
+2016-08-26,37697,23.19,22.98,56.12,10.17,clear,False,False,summer
+2016-08-27,32188,21.25,21.25,69.25,15.21,clear,False,True,summer
+2016-08-28,25849,20.02,20.02,74.56,18.23,partly cloudy,False,True,summer
+2016-08-29,34176,19.48,19.42,65.38,8.33,few clouds,True,False,summer
+2016-08-30,39473,20.79,20.79,54.83,8.65,clear,False,False,summer
+2016-08-31,38989,19.81,19.81,63.12,15.33,clear,False,False,summer
+2016-09-01,39270,19.35,19.28,62.22,13.76,clear,False,False,autumn
+2016-09-03,15265,19.42,19.42,75.42,21.92,rain,False,True,autumn
+2016-09-04,27512,18.85,18.85,69.85,23.4,partly cloudy,False,True,autumn
+2016-09-05,27873,19.02,19.02,82.52,9.44,partly cloudy,False,False,autumn
+2016-09-06,37629,22.19,22.19,79.29,10.33,partly cloudy,False,False,autumn
+2016-09-07,39816,22.56,22.58,66.92,9.56,clear,False,False,autumn
+2016-09-08,40555,20.19,20.04,62.27,19.29,clear,False,False,autumn
+2016-09-09,36151,19.54,19.54,72.62,17.54,partly cloudy,False,False,autumn
+2016-09-10,17080,19.17,19.17,80.5,16.33,rain,False,True,autumn
+2016-09-11,39403,16.85,16.75,63.85,9.04,clear,False,True,autumn
+2016-09-12,39261,20.54,20.54,65.12,11.54,clear,False,False,autumn
+2016-09-13,43573,24.79,24.62,62.17,13.52,clear,False,False,autumn
+2016-09-14,44478,23.46,23.48,63.27,10.44,clear,False,False,autumn
+2016-09-15,42135,22.6,22.73,66.83,9.98,clear,False,False,autumn
+2016-09-16,21967,17.33,17.33,79.19,17.33,rain,False,False,autumn
+2016-09-17,27182,15.38,15.38,80.69,19.88,cloudy,False,True,autumn
+2016-09-18,29463,17.1,17.1,78.19,7.75,partly cloudy,False,True,autumn
+2016-09-19,33109,18.1,18.1,70.1,7.33,few clouds,False,False,autumn
+2016-09-20,37292,16.83,16.83,78.42,6.42,partly cloudy,False,False,autumn
+2016-09-21,40267,18.1,18.04,70.25,9.35,clear,False,False,autumn
+2016-09-22,38043,17.42,17.42,71.33,11.6,few clouds,False,False,autumn
+2016-09-23,38528,15.73,15.73,59.44,10.38,clear,False,False,autumn
+2016-09-24,35786,18.79,18.62,62.02,15.75,clear,False,True,autumn
+2016-09-25,29663,17.69,17.69,62.25,19.88,clear,False,True,autumn
+2016-09-26,34774,15.38,15.38,69.1,10.48,clear,False,False,autumn
+2016-09-27,35751,17.1,17.1,75.88,15.62,partly cloudy,False,False,autumn
+2016-09-28,38529,17.94,17.94,75.35,21.25,few clouds,False,False,autumn
+2016-09-29,34511,17.65,17.65,69.56,24.79,few clouds,False,False,autumn
+2016-09-30,33753,15.31,15.31,66.58,16.79,clear,False,False,autumn
+2016-10-01,17593,13.02,13.02,81.69,9.0,rain,False,True,autumn
+2016-10-02,27022,13.21,13.21,71.85,13.56,few clouds,False,True,autumn
+2016-10-03,35582,13.21,13.1,69.06,6.48,clear,False,False,autumn
+2016-10-04,36807,14.77,14.77,77.73,20.56,few clouds,False,False,autumn
+2016-10-05,35993,14.27,14.27,62.69,28.71,clear,False,False,autumn
+2016-10-06,35005,13.27,13.27,59.42,19.35,few clouds,False,False,autumn
+2016-10-07,33050,13.96,13.96,73.71,11.04,partly cloudy,False,False,autumn
+2016-10-08,26884,14.0,14.0,77.15,8.98,few clouds,False,True,autumn
+2016-10-09,25082,12.1,11.75,72.02,10.1,clear,False,True,autumn
+2016-10-10,32760,10.44,9.96,75.62,9.17,clear,False,False,autumn
+2016-10-11,34914,10.88,10.56,75.23,7.92,few clouds,False,False,autumn
+2016-10-12,32282,12.56,12.54,76.83,13.67,few clouds,False,False,autumn
+2016-10-13,30587,11.25,10.54,77.46,17.35,partly cloudy,False,False,autumn
+2016-10-14,32324,12.0,11.98,74.65,11.27,few clouds,False,False,autumn
+2016-10-15,23488,13.21,13.21,78.25,8.75,few clouds,False,True,autumn
+2016-10-16,18527,13.92,13.65,82.88,14.44,clear,False,True,autumn
+2016-10-17,28734,14.23,14.23,76.19,14.33,clear,False,False,autumn
+2016-10-18,32771,12.12,12.0,68.75,24.1,clear,False,False,autumn
+2016-10-19,33673,11.96,11.71,69.96,18.62,few clouds,False,False,autumn
+2016-10-20,32344,11.88,11.62,77.98,13.98,partly cloudy,False,False,autumn
+2016-10-21,30567,11.06,10.12,81.79,12.56,partly cloudy,False,False,autumn
+2016-10-22,26020,10.5,10.17,79.6,8.31,few clouds,False,True,autumn
+2016-10-23,23553,10.27,9.88,78.52,13.33,few clouds,False,True,autumn
+2016-10-24,30053,11.67,11.33,74.71,11.17,clear,False,False,autumn
+2016-10-25,32992,11.83,11.83,79.06,5.19,partly cloudy,False,False,autumn
+2016-10-26,34010,13.48,13.48,81.79,11.81,few clouds,False,False,autumn
+2016-10-27,33888,12.85,12.69,79.65,17.02,few clouds,False,False,autumn
+2016-10-28,33420,14.56,14.56,74.77,13.5,partly cloudy,False,False,autumn
+2016-10-29,27785,14.27,14.27,84.04,3.08,cloudy,False,True,autumn
+2016-10-30,23535,11.14,11.1,94.17,5.09,cloudy,False,True,autumn
+2016-10-31,34461,12.71,12.67,89.29,6.44,clear,False,False,autumn
+2016-11-01,32054,10.46,10.1,86.56,8.58,partly cloudy,False,False,autumn
+2016-11-02,32038,8.0,6.6,70.29,9.98,clear,False,False,autumn
+2016-11-03,30891,7.92,6.65,72.02,9.88,clear,False,False,autumn
+2016-11-04,21932,9.44,8.38,79.88,9.23,clear,False,False,autumn
+2016-11-05,19420,7.04,4.15,74.81,17.1,partly cloudy,False,True,autumn
+2016-11-06,13406,5.65,2.04,73.88,19.0,clear,False,True,autumn
+2016-11-07,17193,6.77,3.77,76.56,16.77,few clouds,False,False,autumn
+2016-11-08,26147,4.75,2.1,73.96,11.1,clear,False,False,autumn
+2016-11-09,18700,7.65,4.67,85.29,18.88,rain,False,False,autumn
+2016-11-10,25830,8.08,5.54,78.71,18.04,few clouds,False,False,autumn
+2016-11-11,27814,7.33,5.67,74.27,9.48,clear,False,False,autumn
+2016-11-12,8990,9.3,7.83,85.91,10.76,rain,False,True,autumn
+2016-11-13,19044,8.65,7.5,83.52,8.33,clear,False,True,autumn
+2016-11-14,24618,10.77,10.21,85.25,14.12,partly cloudy,False,False,autumn
+2016-11-15,28498,14.27,14.27,87.56,16.83,partly cloudy,False,False,autumn
+2016-11-16,27439,13.08,13.02,79.83,22.69,few clouds,False,False,autumn
+2016-11-17,27462,10.08,7.88,70.58,22.58,partly cloudy,False,False,autumn
+2016-11-18,26594,6.27,2.9,71.83,19.08,clear,False,False,autumn
+2016-11-19,18069,5.71,2.42,79.71,16.79,clear,False,True,autumn
+2016-11-20,10613,7.69,4.67,85.0,20.46,partly cloudy,False,True,autumn
+2016-11-21,19230,9.98,9.0,86.42,16.73,rain,False,False,autumn
+2016-11-22,27422,10.44,9.4,75.35,19.92,few clouds,False,False,autumn
+2016-11-23,28768,9.04,7.94,84.15,10.81,few clouds,False,False,autumn
+2016-11-24,27941,10.08,8.54,77.27,22.1,partly cloudy,False,False,autumn
+2016-11-25,27413,8.21,6.15,70.31,16.02,clear,False,False,autumn
+2016-11-26,19581,6.33,4.98,85.5,7.83,clear,False,True,autumn
+2016-11-27,15446,7.54,5.79,77.75,10.73,partly cloudy,False,True,autumn
+2016-11-28,26765,6.79,4.0,64.65,16.48,clear,False,False,autumn
+2016-11-29,27607,3.06,1.62,76.62,6.83,clear,False,False,autumn
+2016-11-30,26934,2.79,0.04,73.58,10.75,clear,False,False,autumn
+2016-12-01,26245,4.4,1.52,72.96,12.46,clear,False,False,winter
+2016-12-02,25991,6.88,5.73,85.08,6.58,cloudy,False,False,winter
+2016-12-03,17898,6.56,4.29,75.92,13.35,cloudy,False,True,winter
+2016-12-04,15267,4.67,2.0,78.02,13.85,clear,False,True,winter
+2016-12-05,26231,3.62,2.06,90.5,7.0,clear,False,False,winter
+2016-12-06,28095,7.25,6.56,93.62,6.5,cloudy,False,False,winter
+2016-12-07,29424,12.1,12.06,83.56,12.79,clear,False,False,winter
+2016-12-08,28366,12.79,12.79,83.48,16.31,partly cloudy,False,False,winter
+2016-12-09,29714,13.12,13.12,85.42,14.31,clear,False,False,winter
+2016-12-10,14832,12.31,12.06,89.19,15.1,cloudy,False,True,winter
+2016-12-11,17450,8.0,5.56,86.58,15.27,clear,False,True,winter
+2016-12-12,25275,8.29,7.08,91.46,10.56,cloudy,False,False,winter
+2016-12-13,26520,11.62,11.38,90.75,9.96,partly cloudy,False,False,winter
+2016-12-14,28861,10.29,9.48,85.17,9.85,clear,False,False,winter
+2016-12-15,28195,9.0,7.52,89.54,11.75,cloudy,False,False,winter
+2016-12-16,27621,9.54,8.56,89.96,8.04,cloudy,False,False,winter
+2016-12-17,17238,7.42,6.46,95.94,6.21,cloudy,False,True,winter
+2016-12-18,14970,8.15,7.21,90.73,6.52,cloudy,False,True,winter
+2016-12-19,23535,7.19,6.02,88.4,7.46,cloudy,False,False,winter
+2016-12-20,24864,6.21,3.96,80.02,11.21,cloudy,False,False,winter
+2016-12-21,23136,10.31,9.31,83.33,17.17,partly cloudy,False,False,winter
+2016-12-22,21461,8.29,6.42,80.1,12.6,clear,False,False,winter
+2016-12-23,14409,9.92,8.88,84.67,21.29,clear,False,False,winter
+2016-12-24,7890,9.02,6.1,75.35,24.9,few clouds,False,True,winter
+2016-12-25,36653,12.5,12.5,79.42,27.67,cloudy,False,True,winter
+2016-12-26,11455,8.35,5.54,70.54,22.02,clear,True,False,winter
+2016-12-27,10842,4.19,2.46,81.92,7.5,clear,True,False,winter
+2016-12-28,12428,2.17,0.02,97.23,7.4,clear,False,False,winter
+2016-12-29,14052,3.77,2.44,89.98,6.06,clear,False,False,winter
+2016-12-30,11566,3.27,1.06,98.69,9.0,cloudy,False,False,winter
+2016-12-31,11424,7.44,5.04,90.96,13.31,cloudy,False,True,winter
+2017-01-01,6421,7.0,4.44,88.44,14.12,rain,False,True,winter
+2017-01-02,11823,3.73,0.94,83.15,11.17,clear,True,False,winter
+2017-01-03,19436,3.4,-0.62,81.4,18.94,clear,False,False,winter
