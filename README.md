@@ -28,4 +28,12 @@ These incidents may probably not be as present to the general public in the city
 ### Conclusions
 
 
+### Data Sources
+* [Data set on Bike Sharing in London](https://www.kaggle.com/hmavrodiev/london-bike-sharing-dataset)
+* [The Global Terrorism Database](https://www.start.umd.edu/gtd/)
+
+### Other Resources
+* [Documentation of the complete Global Terrorism Database](https://www.start.umd.edu/gtd/downloads/Codebook.pdf)
+* [Additional Data on Bike Sharing in the City of London](https://bikeshare-research.org/#apireq)
+
 
